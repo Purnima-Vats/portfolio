@@ -19,10 +19,9 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    horizon,
     threejs,
+    apple,
 } from "../assets";
 
 export const navLinks = [
@@ -49,18 +48,18 @@ const services = [
         title: "Web Developer",
         icon: web,
     },
-    {
-        title: "React Native Developer",
-        icon: mobile,
-    },
+    // {
+    //     title: "React Native Developer",
+    //     icon: mobile,
+    // },
     {
         title: "Backend Developer",
         icon: backend,
     },
-    {
-        title: "Content Creator",
-        icon: creator,
-    },
+    // {
+    //     title: "Content Creator",
+    //     icon: creator,
+    // },
 ];
 
 const technologies = [
@@ -202,67 +201,64 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Horizon",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Horizon is a full-stack banking application designed for efficient financial management. It features real-time transactions via Dwolla, secure data fetching with Plaid, an expense tracker, and transaction history.",
+        tags: [
+            {
+                name: "Next.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Typescript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Appwrite",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Plaid",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Dwolla",
+                color: "green-text-gradient",
+            },
+            {
+                name: "shadcn UI",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Tailwind CSS",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: horizon,
+        source_code_link: "https://github.com/Purnima-Vats/horizon",
+        live_link: "https://horizon-eight-gamma.vercel.app/",
+    },
+    {
+        name: "Apple Website UI Clone",
+        description:
+            "Recreated the Apple iPhone 15 Pro product page using React.js, combining GSAP animations and Three.js for 3D models.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "GSAP",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "Three.js",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: apple,
+        source_code_link: "https://github.com/Purnima-Vats/apple-iPhone15-clone",
+        live_link: "https://appoll.netlify.app/",
     },
 ];
 
