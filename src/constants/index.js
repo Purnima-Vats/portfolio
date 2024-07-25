@@ -240,7 +240,7 @@ const projects = [
         live_link: "https://horizon-expense.vercel.app/",
     },
     {
-        name: "Carepulse - Healthcare Platform",
+        name: "Carepulse",
         description:
             "A Patient management system that streamlines patient registration, appointment scheduling, medical records and complex forms with admin dashboard.",
         tags: [
@@ -257,20 +257,16 @@ const projects = [
                 color: "pink-text-gradient",
             },
             {
-                name: "react-hook-form",
-                color: "blue-text-gradient",
-            },
-            {
                 name: "zod",
-                color: "green-text-gradient",
+                color: "blue-text-gradient",
             },
             {
                 name: "shadcn UI",
-                color: "pink-text-gradient",
+                color: "green-text-gradient",
             },
             {
                 name: "Tailwind CSS",
-                color: "blue-text-gradient",
+                color: "pink-text-gradient",
             },
         ],
         image: carepulse,
