@@ -28,6 +28,7 @@ import tesla from "./company/tesla.png";
 
 import horizon from "./horizon.png";
 import apple from "./apple.png";
+import carepulse from "./carepulse.png";
 
 export {
   logo,
@@ -56,5 +57,6 @@ export {
   starbucks,
   tesla,
   horizon,
-  apple
+  apple,
+  carepulse
 };

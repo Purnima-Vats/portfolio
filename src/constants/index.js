@@ -22,6 +22,7 @@ import {
     horizon,
     threejs,
     apple,
+    carepulse,
 } from "../assets";
 
 export const navLinks = [
@@ -236,7 +237,45 @@ const projects = [
         ],
         image: horizon,
         source_code_link: "https://github.com/Purnima-Vats/horizon",
-        live_link: "https://horizon-eight-gamma.vercel.app/",
+        live_link: "https://horizon-expense.vercel.app/",
+    },
+    {
+        name: "Carepulse - Healthcare Platform",
+        description:
+            "A Patient management system that streamlines patient registration, appointment scheduling, medical records and complex forms with admin dashboard.",
+        tags: [
+            {
+                name: "Next.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Typescript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Appwrite",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "react-hook-form",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "zod",
+                color: "green-text-gradient",
+            },
+            {
+                name: "shadcn UI",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Tailwind CSS",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: carepulse,
+        source_code_link: "https://github.com/Purnima-Vats/carepulse",
+        live_link: "https://carepulse-patient.vercel.app/",
     },
     {
         name: "Apple Website UI Clone",
