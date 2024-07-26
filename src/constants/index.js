@@ -237,7 +237,7 @@ const projects = [
         ],
         image: horizon,
         source_code_link: "https://github.com/Purnima-Vats/horizon",
-        live_link: "https://horizon-expense.vercel.app/",
+        live_link: "https://horizon-expense.vercel.app",
     },
     {
         name: "Carepulse",
@@ -271,7 +271,7 @@ const projects = [
         ],
         image: carepulse,
         source_code_link: "https://github.com/Purnima-Vats/carepulse",
-        live_link: "https://carepulse-patient.vercel.app/",
+        live_link: "https://carepulse-patient.vercel.app",
     },
     {
         name: "Apple Website UI Clone",
@@ -293,7 +293,7 @@ const projects = [
         ],
         image: apple,
         source_code_link: "https://github.com/Purnima-Vats/apple-iPhone15-clone",
-        live_link: "https://appoll.netlify.app/",
+        live_link: "https://appoll.netlify.app",
     },
 ];
 
