@@ -25,10 +25,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import idyll_logo from "./company/idyll_logo.png";
 
 import horizon from "./horizon.png";
 import apple from "./apple.png";
 import carepulse from "./carepulse.png";
+import idyll from "./idyll.png";
+import discord_clone from "./discord_clone.png";
+
 
 export {
   logo,
@@ -58,5 +62,8 @@ export {
   tesla,
   horizon,
   apple,
-  carepulse
+  carepulse,
+  idyll,
+  idyll_logo,
+  discord_clone
 };

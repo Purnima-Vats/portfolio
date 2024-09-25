@@ -20,9 +20,12 @@ import {
     tesla,
     shopify,
     horizon,
+    idyll,
     threejs,
     apple,
     carepulse,
+    idyll_logo,
+    discord_clone
 } from "../assets";
 
 export const navLinks = [
@@ -120,57 +123,68 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Freelance Web Developer",
+        company_name: "Idyll Dating",
+        icon: idyll_logo,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "September 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed a responsive and user-friendly website for Idyll, a dating app startup, using HTML, Tailwind CSS, and JavaScript in just 15 days.",
+            "Improved overall performance and enhanced user experience with modern, clean design."
         ],
     },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    // {
+    //     title: "React.js Developer",
+    //     company_name: "Starbucks",
+    //     icon: starbucks,
+    //     iconBg: "#383E56",
+    //     date: "March 2020 - April 2021",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "React Native Developer",
+    //     company_name: "Tesla",
+    //     icon: tesla,
+    //     iconBg: "#E6DEDD",
+    //     date: "Jan 2021 - Feb 2022",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "Web Developer",
+    //     company_name: "Shopify",
+    //     icon: shopify,
+    //     iconBg: "#383E56",
+    //     date: "Jan 2022 - Jan 2023",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#E6DEDD",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 const testimonials = [
@@ -201,43 +215,76 @@ const testimonials = [
 ];
 
 const projects = [
+    // {
+    //     name: "Horizon",
+    //     description:
+    //         "Horizon is a full-stack banking application designed for efficient financial management. It features real-time transactions via Dwolla, secure data fetching with Plaid, an expense tracker, and transaction history.",
+    //     tags: [
+    //         {
+    //             name: "Next.js",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "Typescript",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "Appwrite",
+    //             color: "pink-text-gradient",
+    //         },
+    //         {
+    //             name: "Plaid",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "Dwolla",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "shadcn UI",
+    //             color: "pink-text-gradient",
+    //         },
+    //         {
+    //             name: "Tailwind CSS",
+    //             color: "blue-text-gradient",
+    //         },
+    //     ],
+    //     image: horizon,
+    //     source_code_link: "https://github.com/Purnima-Vats/horizon",
+    //     live_link: "https://horizon-expense.vercel.app",
+    // },
     {
-        name: "Horizon",
-        description:
-            "Horizon is a full-stack banking application designed for efficient financial management. It features real-time transactions via Dwolla, secure data fetching with Plaid, an expense tracker, and transaction history.",
+        name: "Discord Clone",
+        description: "Built a real-time messaging platform with 1:1 video calls, message attachments, and role-based management. Integrated WebSocket messaging via Socket.io, Prisma with MySQL (Planetscale), and authentication using Clerk. The responsive UI, designed with TailwindCSS and ShadcnUI, supports light/dark modes for all devices.",
         tags: [
             {
                 name: "Next.js",
                 color: "blue-text-gradient",
             },
             {
-                name: "Typescript",
+                name: "socket.io",
                 color: "green-text-gradient",
             },
             {
-                name: "Appwrite",
+                name: "Prisma",
                 color: "pink-text-gradient",
             },
             {
-                name: "Plaid",
+                name: "MySQL",
                 color: "blue-text-gradient",
             },
             {
-                name: "Dwolla",
+                name: "UploadThing",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "LightDarkMode",
                 color: "green-text-gradient",
-            },
-            {
-                name: "shadcn UI",
-                color: "pink-text-gradient",
-            },
-            {
-                name: "Tailwind CSS",
-                color: "blue-text-gradient",
             },
         ],
-        image: horizon,
-        source_code_link: "https://github.com/Purnima-Vats/horizon",
-        live_link: "https://horizon-expense.vercel.app",
+        image: discord_clone,
+        source_code_link: "https://github.com/Purnima-Vats/discord_clone",
+        live_link: "https://discordd.up.railway.app/",
     },
     {
         name: "Carepulse",
