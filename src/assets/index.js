@@ -32,6 +32,7 @@ import apple from "./apple.png";
 import carepulse from "./carepulse.png";
 import idyll from "./idyll.png";
 import discord_clone from "./discord_clone.png";
+import hippo_ui from "./HippoUI.png";
 
 
 export {
@@ -65,5 +66,6 @@ export {
   carepulse,
   idyll,
   idyll_logo,
-  discord_clone
+  discord_clone,
+  hippo_ui,
 };

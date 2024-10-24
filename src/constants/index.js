@@ -26,6 +26,7 @@ import {
     carepulse,
     idyll_logo,
     discord_clone,
+    hippo_ui
 } from "../assets";
 
 export const navLinks = [
@@ -253,6 +254,40 @@ const projects = [
     //     source_code_link: "https://github.com/Purnima-Vats/horizon",
     //     live_link: "https://horizon-expense.vercel.app",
     // },
+    {
+        name: "Hippo UI",
+        description:
+            "Hippo UI is a digital marketplace that facilitates product registration, purchase, and sale. Sellers can manage their products and access their earnings dashboard. Stripe ensures secure transactions and payment management. The platform is built using Next.js, Tailwind CSS, Shadcn UI, Kinde Auth, Uploadthing, Resend Email, Stripe Checkout and Connect, Supabase, and Prisma.",
+        tags: [
+            {
+                name: "Next.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Postgres SQL",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "UploadThing",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Kinde Auth",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Stripe",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: hippo_ui,
+        source_code_link: "https://github.com/Purnima-Vats/digital-marketplace",
+        live_link: "https://digital-marketplace-lovat.vercel.app",
+    },
     {
         name: "Discord Clone",
         description:
