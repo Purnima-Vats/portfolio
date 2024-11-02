@@ -216,44 +216,44 @@ const testimonials = [
 ];
 
 const projects = [
-    // {
-    //     name: "Horizon",
-    //     description:
-    //         "Horizon is a full-stack banking application designed for efficient financial management. It features real-time transactions via Dwolla, secure data fetching with Plaid, an expense tracker, and transaction history.",
-    //     tags: [
-    //         {
-    //             name: "Next.js",
-    //             color: "blue-text-gradient",
-    //         },
-    //         {
-    //             name: "Typescript",
-    //             color: "green-text-gradient",
-    //         },
-    //         {
-    //             name: "Appwrite",
-    //             color: "pink-text-gradient",
-    //         },
-    //         {
-    //             name: "Plaid",
-    //             color: "blue-text-gradient",
-    //         },
-    //         {
-    //             name: "Dwolla",
-    //             color: "green-text-gradient",
-    //         },
-    //         {
-    //             name: "shadcn UI",
-    //             color: "pink-text-gradient",
-    //         },
-    //         {
-    //             name: "Tailwind CSS",
-    //             color: "blue-text-gradient",
-    //         },
-    //     ],
-    //     image: horizon,
-    //     source_code_link: "https://github.com/Purnima-Vats/horizon",
-    //     live_link: "https://horizon-expense.vercel.app",
-    // },
+    {
+        name: "Horizon",
+        description:
+            "Horizon is a full-stack banking application designed for efficient financial management. It features real-time transactions via Dwolla, secure data fetching with Plaid, an expense tracker, and transaction history.",
+        tags: [
+            {
+                name: "Next.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Typescript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Appwrite",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Plaid",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Dwolla",
+                color: "green-text-gradient",
+            },
+            {
+                name: "shadcn UI",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Tailwind CSS",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: horizon,
+        source_code_link: "https://github.com/Purnima-Vats/Banking-app",
+        live_link: "https://expense-banking-app.vercel.app",
+    },
     {
         name: "Hippo UI",
         description:
