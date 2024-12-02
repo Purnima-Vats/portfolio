@@ -288,40 +288,40 @@ const projects = [
         source_code_link: "https://github.com/Purnima-Vats/digital-marketplace",
         live_link: "https://digital-marketplace-lovat.vercel.app",
     },
-    {
-        name: "Discord Clone",
-        description:
-            "Built a real-time messaging platform with 1:1 video calls, message attachments, and role-based management. Integrated WebSocket messaging via Socket.io, Prisma with MySQL (Planetscale), and authentication using Clerk. The responsive UI, designed with TailwindCSS and ShadcnUI, supports light/dark modes for all devices.",
-        tags: [
-            {
-                name: "Next.js",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "socket.io",
-                color: "green-text-gradient",
-            },
-            {
-                name: "Prisma",
-                color: "pink-text-gradient",
-            },
-            {
-                name: "MySQL",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "UploadThing",
-                color: "pink-text-gradient",
-            },
-            {
-                name: "LightDarkMode",
-                color: "green-text-gradient",
-            },
-        ],
-        image: discord_clone,
-        source_code_link: "https://github.com/Purnima-Vats/discord_clone",
-        live_link: "https://discordd.up.railway.app/",
-    },
+    // {
+    //     name: "Discord Clone",
+    //     description:
+    //         "Built a real-time messaging platform with 1:1 video calls, message attachments, and role-based management. Integrated WebSocket messaging via Socket.io, Prisma with MySQL (Planetscale), and authentication using Clerk. The responsive UI, designed with TailwindCSS and ShadcnUI, supports light/dark modes for all devices.",
+    //     tags: [
+    //         {
+    //             name: "Next.js",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "socket.io",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "Prisma",
+    //             color: "pink-text-gradient",
+    //         },
+    //         {
+    //             name: "MySQL",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "UploadThing",
+    //             color: "pink-text-gradient",
+    //         },
+    //         {
+    //             name: "LightDarkMode",
+    //             color: "green-text-gradient",
+    //         },
+    //     ],
+    //     image: discord_clone,
+    //     source_code_link: "https://github.com/Purnima-Vats/discord_clone",
+    //     live_link: "https://discordd.up.railway.app/",
+    // },
     {
         name: "Carepulse",
         description:
